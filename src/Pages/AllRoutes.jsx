@@ -11,6 +11,7 @@ import Terms from '../Components/Terms/Terms';
 import Contact from '../Components/Contact/Contact';
 import Officials from '../Components/Officials/Officials';
 import Assistant from '../Components/Assistant';
+import Links from '../Components/Links';
 
 
 
@@ -27,6 +28,7 @@ const AllRoutes = () => {
   <Route path='/Contact' element ={<Contact/>}/>
   <Route path='/Officials' element ={<Officials/>}/>
   <Route path='/Assistant' element ={<Assistant/>}/>
+  <Route path='/Links' element ={<Links/>}/>
 </Routes>
 
     <Footer/>

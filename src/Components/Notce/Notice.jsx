@@ -59,20 +59,20 @@ const Notice = () => {
             স্কুল সম্পর্কিত তথ্য
           </div>
           <div style={{ textAlign: "justify" }}>
+            <Badge className="box" color="info" href="">
+              কমিটির সদস্যগণ
+            </Badge>
+            <br/>
             <Badge className="box" color="info" href="Officials">
-              কর্মকর্তাবৃন্দ
+            কর্মকর্তাবৃন্দ
             </Badge>
             <br/>
             <Badge className="box" color="info" href="Assistant">
-              ৩য় শ্রেনীর কর্মকর্তাবৃন্দ
+            ৩য় শ্রেনীর কর্মকর্তাবৃন্দ
             </Badge>
             <br/>
             <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
-            </Badge>
-            <br/>
-            <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
+              ছাত্র/ছাত্রী
             </Badge>
             <br/>
             <Badge className="box" color="info" href="#">
@@ -91,7 +91,7 @@ const Notice = () => {
           </div>
           <div style={{ textAlign: "justify" }}>
             <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
+              ষষ্ঠ শ্রেনীতে ভর্তী
             </Badge>
             <br/>
             <Badge className="box" color="info" href="#">

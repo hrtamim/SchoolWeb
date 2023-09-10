@@ -30,18 +30,18 @@ const footerInfoLinks = [
     url: "/Privacy_policies",
   },
   {
-    display: "Membership",
-    url: "#",
+    display: "Important Links",
+    url: "Links",
   },
 
-  {
-    display: "Purchases Guide",
-    url: "#",
-  },
 
   {
     display: "Terms of Service",
     url: "/Terms_of_Services",
+  },
+  {
+    display: "স্বাধীনতার সুবর্ণ জয়ন্তী কর্নার",
+    url: "#",
   },
 ];
 
