@@ -59,11 +59,11 @@ const Notice = () => {
             স্কুল সম্পর্কিত তথ্য
           </div>
           <div style={{ textAlign: "justify" }}>
-            <Badge className="box" color="info" href="#">
+            <Badge className="box" color="info" href="Officials">
               কর্মকর্তাবৃন্দ
             </Badge>
             <br/>
-            <Badge className="box" color="info" href="#">
+            <Badge className="box" color="info" href="Assistant">
               ৩য় শ্রেনীর কর্মকর্তাবৃন্দ
             </Badge>
             <br/>

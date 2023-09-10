@@ -9,6 +9,8 @@ import Home from '../Pages/Home';
 import Privacy from '../Components/Privacy/Privacy';
 import Terms from '../Components/Terms/Terms';
 import Contact from '../Components/Contact/Contact';
+import Officials from '../Components/Officials/Officials';
+import Assistant from '../Components/Assistant';
 
 
 
@@ -23,7 +25,8 @@ const AllRoutes = () => {
   <Route path='/Privacy_policies' element ={<Privacy/>}/>
   <Route path='/Terms_of_Services' element ={<Terms/>}/>
   <Route path='/Contact' element ={<Contact/>}/>
-
+  <Route path='/Officials' element ={<Officials/>}/>
+  <Route path='/Assistant' element ={<Assistant/>}/>
 </Routes>
 
     <Footer/>
