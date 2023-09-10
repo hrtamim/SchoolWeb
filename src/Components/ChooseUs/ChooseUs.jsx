@@ -28,7 +28,7 @@ const ChooseUs = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <div className="choose__img">
+            <div style={{overflow:'hidden', zIndex:-99}} className="choose__img">
               {showVideo ? (
                 <ReactPlayer
                   url="https://www.youtube.com/watch?v=LinWJsangs4"
@@ -37,7 +37,7 @@ const ChooseUs = () => {
                   height="350px"
                 />
               ) : (
-                <img src={choose} alt="" className="w-100" />
+                <img style={{height:'300px'}} src={choose} alt="" className="w-100" />
               )}
 
               {!showVideo && (

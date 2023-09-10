@@ -9,10 +9,11 @@ const AboutUs = () => {
   return (
     <section>
       <Container>
+        
+        <Row >
         <div style={{marginTop:'100px'}}>
 
-        </div>
-        <Row >
+</div>
           <Col lg="6" md="6">
             <div className="about__img">
               <img src={school} alt="" className="w-100" />

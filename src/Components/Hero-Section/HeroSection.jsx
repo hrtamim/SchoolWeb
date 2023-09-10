@@ -2,13 +2,33 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./hero-section.css";
 import schl from '../../assests/schl.jpg';
+import "./headline.css"
 
 
 const HeroSection = () => {
   return (
     <section>
       <Container>
-        <Row>
+        <div className="news-container">
+          <div className="title">
+            Notice
+
+          </div>
+
+          <ul>
+          <li>
+Admission is going on.          </li>
+          <li>
+            The last date of Admission is 02/02/2024
+          </li>
+          </ul>
+
+        </div>
+        <div style={{height:'40px'}}>
+
+        </div>
+        
+        <Row style={{marginTop:'20px'}}>
           <Col lg="6" md="6">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
@@ -25,7 +45,7 @@ const HeroSection = () => {
               <button className="btn">Search</button>
             </div>
           </Col>
-          <Col lg="6" md="6">
+          <Col style={{marginTop:"80px"}} lg="6" md="6">
             <img src={schl} alt="" className="w-100 schl" />
           </Col>
           
