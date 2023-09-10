@@ -69,7 +69,7 @@ const Footer = () => {
 
               <span>
                 {" "}
-                <a href="facebook.com">
+                <a href="instagram.com.com">
                   <i class="ri-instagram-line"></i>
                 </a>
               </span>
