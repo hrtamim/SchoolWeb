@@ -1,8 +1,7 @@
 import React from "react";
 // import { Col, Row } from 'antd';
 import { Row, Col, Badge } from "reactstrap";
-import './notice.css'
-
+import "./notice.css";
 
 const Notice = () => {
   return (
@@ -53,37 +52,45 @@ const Notice = () => {
           </div>
         </Col>
       </Row>
+      <div
+        style={{ background: "#48fa8f", textAlign: "center", marginTop: 20 }}
+      >
+        নোটিশ
+      </div>
+      <div>
+        <Row >
+          <Col style={{width:20}}>ji</Col>
+          <Col>hi</Col>
+        </Row>
+      </div>
       <Row style={{ marginTop: "30px" }}>
         <Col>
           <div style={{ background: "#48fa8f", textAlign: "center" }}>
             স্কুল সম্পর্কিত তথ্য
           </div>
           <div style={{ textAlign: "justify" }}>
-            <Badge className="box" color="info" href="">
+            <Badge className="box" color="info" href="Commitee">
               কমিটির সদস্যগণ
             </Badge>
-            <br/>
+            <br />
             <Badge className="box" color="info" href="Officials">
-            কর্মকর্তাবৃন্দ
+              কর্মকর্তাবৃন্দ
             </Badge>
-            <br/>
-            <Badge className="box" color="info" href="Assistant">
-            ৩য় শ্রেনীর কর্মকর্তাবৃন্দ
-            </Badge>
-            <br/>
-            <Badge className="box" color="info" href="#">
+            <br />
+            <Badge className="box" color="info" href="Students">
               ছাত্র/ছাত্রী
             </Badge>
-            <br/>
+            <br />
             <Badge className="box" color="info" href="#">
               কর্মকর্তাবৃন্দ
             </Badge>
+            <br />
           </div>
         </Col>
         <Col>
-          <div style={{ background: "#48fa8f", textAlign: "center" }}>
+          {/* <div style={{ background: "#48fa8f", textAlign: "center" }}>
             নোটিশ
-          </div>
+          </div> */}
         </Col>
         <Col>
           <div style={{ background: "#48fa8f", textAlign: "center" }}>
@@ -93,21 +100,17 @@ const Notice = () => {
             <Badge className="box" color="info" href="#">
               ষষ্ঠ শ্রেনীতে ভর্তী
             </Badge>
-            <br/>
+            <br />
             <Badge className="box" color="info" href="#">
-              ৩য় শ্রেনীর কর্মকর্তাবৃন্দ
+              সপ্তম শ্রেনীতে ভর্তী
             </Badge>
-            <br/>
+            <br />
             <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
+              অষ্টম শ্রেনীতে ভর্তী
             </Badge>
-            <br/>
+            <br />
             <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
-            </Badge>
-            <br/>
-            <Badge className="box" color="info" href="#">
-              কর্মকর্তাবৃন্দ
+              নবম শ্রেনীতে ভর্তী
             </Badge>
           </div>
         </Col>

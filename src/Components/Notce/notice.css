@@ -1,3 +1,8 @@
 .box{
     width: 100%;
 }
+
+.noticeColumn{
+    width: 300;
+    background: red;
+}

@@ -41,7 +41,7 @@ const footerInfoLinks = [
   },
   {
     display: "স্বাধীনতার সুবর্ণ জয়ন্তী কর্নার",
-    url: "#",
+    url: "Independence",
   },
 ];
 

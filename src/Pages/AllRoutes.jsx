@@ -10,8 +10,10 @@ import Privacy from '../Components/Privacy/Privacy';
 import Terms from '../Components/Terms/Terms';
 import Contact from '../Components/Contact/Contact';
 import Officials from '../Components/Officials/Officials';
-import Assistant from '../Components/Assistant';
+import Students from '../Components/Students';
 import Links from '../Components/Links';
+import Commitee from '../Components/Commitee';
+import Independence from '../Components/Independence';
 
 
 
@@ -27,8 +29,10 @@ const AllRoutes = () => {
   <Route path='/Terms_of_Services' element ={<Terms/>}/>
   <Route path='/Contact' element ={<Contact/>}/>
   <Route path='/Officials' element ={<Officials/>}/>
-  <Route path='/Assistant' element ={<Assistant/>}/>
+  <Route path='/Students' element ={<Students/>}/>
   <Route path='/Links' element ={<Links/>}/>
+  <Route path='/Commitee' element ={<Commitee/>}/>
+  <Route path='/Independence' element ={<Independence/>}/>
 </Routes>
 
     <Footer/>
