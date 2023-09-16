@@ -14,6 +14,7 @@ import Students from '../Components/Students';
 import Links from '../Components/Links';
 import Commitee from '../Components/Commitee';
 import Independence from '../Components/Independence';
+import LogIN from '../Components/LogIN/LogIN';
 
 
 
@@ -33,6 +34,7 @@ const AllRoutes = () => {
   <Route path='/Links' element ={<Links/>}/>
   <Route path='/Commitee' element ={<Commitee/>}/>
   <Route path='/Independence' element ={<Independence/>}/>
+  <Route path='/login' element ={<LogIN/>}/>
 </Routes>
 
     <Footer/>

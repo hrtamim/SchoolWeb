@@ -19,8 +19,8 @@ const navLinks = [
     url: "Notice",
   },
   {
-    display: "Pages",
-    url: "#",
+    display: "LogIN",
+    url: "login",
   },
   {
     display: "Contact",
