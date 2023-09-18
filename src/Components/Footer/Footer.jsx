@@ -52,7 +52,7 @@ const Footer = () => {
         <div style={{marginTop:'100px'}}>
 
         </div>
-        <Row>
+        <Row style={{paddingTop:10}}>
           <Col lg="3" md="6" className="mb-4">
             <h3 className=" d-flex align-items-center gap-1">
                UTTAR BHOGDABURI HIGH SCHOOL
@@ -121,11 +121,11 @@ const Footer = () => {
             <p> Phone: +88 01316331216 </p>
             <p>Email: info.hrtamim@gmail.com</p>
           </Col>
-          <div className="text-center" style={{justifyContent:'center'}}>
+          {/* <div className="text-center" style={{justifyContent:'center'}}>
             <div>
             <h4 className="mb-4">Tamim</h4>
             </div>
-          </div>
+          </div> */}
         </Row>
       </Container>
     </footer>

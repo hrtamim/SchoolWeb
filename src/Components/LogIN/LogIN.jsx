@@ -5,7 +5,7 @@ import { Button, FormGroup, Label, Input } from "reactstrap";
 export class LogIN extends Component {
   render() {
     return (
-      <div style={{ paddingTop: 100, paddingLeft: 100, paddingRight: 100 }}>
+      <div style={{ paddingTop: 100, paddingLeft: 100, paddingRight: 100,minHeight:400 }}>
         <div className="bb">
           <FormGroup>
             <Label for="exampleEmail">Email</Label>
@@ -14,7 +14,7 @@ export class LogIN extends Component {
               name="email"
               placeholder="Enter your email"
               type="email"
-              style={{backgroundColor:'skyblue',color:'white',}}
+              // style={{backgroundColor:'skyblue',color:'white',}}
             />
           </FormGroup>
           <FormGroup>
@@ -24,7 +24,7 @@ export class LogIN extends Component {
               name="password"
               placeholder="Enter your password"
               type="password"
-              style={{backgroundColor:'skyblue',color:'white',}}
+              // style={{backgroundColor:'skyblue',color:'white',}}
             />
           </FormGroup>
           <Button style={{alignItems:'end',justifyContent:'end',backgroundColor:"green"}} color="primary">Log In</Button>
