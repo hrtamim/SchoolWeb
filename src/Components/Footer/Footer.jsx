@@ -20,7 +20,7 @@ const footerQuickLinks = [
 
   {
     display: "Blog",
-    url: "#",
+    url: "Blog",
   },
 ];
 
